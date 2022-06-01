@@ -50,5 +50,11 @@ public class Test
             System.out.println("No houses have three or more children");
         }
     }
+     
+     public void getHouseNumber() {
+    	 for(Integer aHouse : children.keySet()) {
+    		 System.out.println(aHouse);
+    	 }
+     }
        
 }
